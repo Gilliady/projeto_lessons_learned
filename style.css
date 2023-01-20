@@ -1,14 +1,29 @@
+*{
+    margin: 0;
+}
 body{
     margin-top: 150px;
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
+    text-align: center;
     top: 0;
     position: fixed;
+    background-color:slategrey;
+    width: 100%;
 }
 #licoes_aprendidas{
     
 }
 #licoes_a_aprender{
 
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: inline-block;
+}
+article{
+    width: 45%;
 }
