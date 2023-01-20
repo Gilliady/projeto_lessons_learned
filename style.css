@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    margin-top: 150px;
+    margin-top: 55px;
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
@@ -18,12 +18,29 @@ body{
 #licoes_a_aprender{
 
 }
+#listas{
+    display: inline-block;
+}
+main section :nth-of-type(2){
+    display: inline-block;
+    width: 100%;
+}
+aside article{
+    width: 50%;
+    float: left;
+    
+}
+article{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
 a{
     text-decoration: none;
 }
+section{
+    width: 100%;
+}
 nav{
     display: inline-block;
-}
-article{
-    width: 45%;
 }
