@@ -1,76 +1,85 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 50px;
+* {
+  font-family: Courier, monospace;
+  line-height: 50px;
 }
 
-#cabecalho{
-    text-align: center;
-    top: 0;
-    position: fixed;
-    background-color: rgb(30,183,32);
-    width: 100%;
-    height: 100px;
-}
-body{
-    margin-left: 0;
-    margin-top: 100px;
-    background-color: rgb(253, 251, 251);
-    text-align: center;  
-}
-#minha_foto{
-    width: 10%;
-}
-#section_01{
-    display: inline-block;
-    vertical-align: text-top;
-    background-color: lightgreen;
-}
-#licoes_aprendidas{
-    padding-left: 50;
-    padding-right: 70%;
-    margin-right: auto;
-    width: 50%;
-    background-color:lightgreen;
-}
-#licoes_a_aprender{
-    padding-right: 30%;
-    margin-left: auto;
-    width: 50%;
-    text-align: justify;
-    background-color:darkorange;
-}
-#rodape{
-    text-align: center;
-}
-section{
-    text-align: start;
-}
-aside article{
-    height: 255px;
-    width: 45%;
-    float: left;
-    border-right: 1px gray solid;
-    
-}
-article{
-    padding-right: 70px;
-    padding-left: 25px;
-}
-p{
-    font-size: 16px;
-}
-a{
-    text-decoration: none;
-}
-section{
-    width: 100%;
-}
-nav{
-    display: inline-block;
-}
-table{
-    color: black;
-    border: 0;
-    width: 100%;
+#cabecalho {
+  text-align: center;
+  top: 0;
+  position: fixed;
+  background-color: rgb(30, 183, 32);
+  width: 100%;
+  height: 100px;
 }
 
+body {
+  margin-left: 0;
+  margin-top: 100px;
+  background-color: rgb(253, 251, 251);
+  text-align: center;
+}
+
+#minha_foto {
+  width: 10%;
+}
+
+#section_01 {
+  display: inline-block;
+  vertical-align: text-top;
+  background-color: lightgreen;
+}
+
+#licoes_aprendidas {
+  padding-left: 50;
+  padding-right: 70%;
+  margin-right: auto;
+  width: 50%;
+  background-color: lightgreen;
+}
+
+#licoes_a_aprender {
+  padding-right: 30%;
+  margin-left: auto;
+  width: 50%;
+  text-align: justify;
+  background-color: darkorange;
+}
+
+#rodape {
+  text-align: center;
+}
+
+section {
+  text-align: start;
+  width: 100%;
+}
+
+article {
+  padding-right: 70px;
+  padding-left: 25px;
+}
+
+aside article {
+  height: 255px;
+  width: 45%;
+  float: left;
+  border-right: 1px gray solid;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block;
+}
+
+table {
+  color: black;
+  border: 0;
+  width: 100%;
+}
